@@ -1,0 +1,131 @@
+\documentclass[a4paper,11pt]{article} 
+
+\usepackage{geometry}
+\geometry{top=20mm}
+\geometry{bottom=15mm}
+\geometry{left=20mm}
+\geometry{right=20mm}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{indentfirst}
+
+\usepackage[flushleft]{threeparttable}
+\usepackage{mathtext} 	
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{lastpage}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{braket}
+\usepackage{verbatim}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc,positioning,fit,backgrounds}
+\usepackage{amsmath} 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}	
+\usepackage[english,russian]{babel}
+\usepackage{amssymb}
+\usepackage{icomma} 
+\usepackage{mathtext} 
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{mathtext} 
+\usepackage{multicol}
+\usepackage{tikz,lipsum,lmodern}
+\usepackage[most]{tcolorbox}
+\usepackage{lipsum}
+\usetikzlibrary{arrows}
+\tcbuselibrary{breakable}
+\usepackage{hyperref}
+\hypersetup{%
+	colorlinks = true,
+	linkcolor  = black
+}
+\makeatletter
+\renewcommand{\maketitle}{\begin{center}
+		\noindent{\LARGE\@title}\par
+		\noindent {\large\itshape\@author}
+		\noindent {\large\@date}
+		\vskip 2ex\end{center}}
+\makeatother
+\title{
+	Мотивационное письмо \\ 
+	\begin{large} 
+		\textcolor{red}{НИУ ВШЭ. Теория вероятностей и статистика.}
+\end{large} }
+\date{Сезон 2019-2020}
+\begin{document}
+	\maketitle
+	
+	\begin{enumerate}
+		\item \textcolor{blue}{ФИО:} Соломонов Семен Феликсович
+		\item \textcolor{blue}{Номер группы:} БЭК183
+		\item \textcolor{blue}{Оценка за курс:} На момент подачи заявления (без учета экзамена по мат.статистике) -- 8 за первый семестр и 7 за второй
+		\item \textcolor{blue}{Уровень владения красотами программирования:}
+			\begin{itemize}
+			 	\item \textit{Phyton:} Постарался взять максимум из курса <<Наука о данных>> во втором семестре
+			 	\item \textit{R:} Бувально недавно начал осваивать, но пока в рамках курса, например,  написал (хоть и не очень красивые, на мой взгляд) скрипты для доверительных интервалов и гипотез для какой-никакой тренировки, прошел несколько курсов на DataCamp
+			 	\item \textit{Stata:} Можно еще отметить это: начинающий, работал со Статой при обработке данных и построении логит модели в курсовой работе
+			 \end{itemize}
+		 \item \textcolor{blue}{Уровень владения \LaTeX:} Хороший, начал им пользоваться на регулярной основе в конце 1-го курса
+		 \item \textcolor{blue}{Мои контакты:}
+		 	\begin{itemize}
+		 		\item \textit{Телефон:} +7 (905) 443-90-29
+		 		\item \textit{Почта:} solomonovsemen@gmail.com
+		 		\item \textit{Телеграмм:} @semasolomonov
+		 	\end{itemize}
+	\end{enumerate}
+
+	\begin{tcolorbox}[enhanced jigsaw,breakable,pad at break*=1mm, attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
+	colback=blue!5!white,colframe=blue!100!black,colbacktitle=blue!100!black,
+	title=Почему именно меня должны взять в ассисенты?,fonttitle=\bfseries,
+	boxed title style={size=small,colframe=black!100!black}]
+	С самого начала 2-го года обучения ТВиС стал для меня самым интересным курсом, ему я уделял большее количество своего времени. Не могу не сказать, что огромное влияние оказали наш любимый лектор и семинарист Елена Владимировна, а также Штаб (Илья) за что выражаю им благодарность за крутое изложение материала и атмосферу, эти люди дали мне понять, что ТВиС -- это не просто дисциплина с кучей формальностей, а что-то большее. Именно поэтому я отношусь к этому курсу особенно. Самое главное для меня удовольствие -- это не только получить знания, но и объяснить их максимально подробно. Мне очень нравится изучать что-то новое за рамками программы, конечно же, в ключе теории вероятностей (например, буквально на днях познакомился со случайными графами -- очень завлекательно). Поэтому я приложу максимум усилий, чтобы студенты не остались без интересных вещей и интуитивного понимания предмета.
+	\end{tcolorbox}
+
+	\begin{center}
+		{\large \textcolor{red}{Задача:} <<Что лучше лифт или лестница?>> (немножко в первый семестр, что-то мощное придумать нет сил, ибо сессия)}
+	\end{center}
+
+	Предыстория: У нового здания ВШЭ на Покровке есть один минус -- лифты. Некоторые студенты их ждут относительно долго и поэтому могут спуститься по лестнице, но не делают этого, потому что мы в Вышке ленивые. Давайте упрощенно узнаем, а оправданно ли студенты ждут лифт при определенных условиях? Будем рассматривать случай, когда существует две альтернативы: спуститься до нужного этажа по лестнице или ожидать лифт (числа взяты из примерных соображений, никаких эмпирических подсчетов не было). Кейс таков: до пары остается ровно 3 минуты, студент находится на 6-ом этаже корпуса R, важная лекция по теории вероятностей в R201, 2 минуты на то, чтобы добраться до двери и 1 для того, чтобы найти место и сесть в аудитории.
+	
+	Пусть случайная величина $ X $ -- время ожидания лифта (в минутах) имеет равномерное распределение на отрезке от 0 до 5, то есть $ X \sim U[0;5] $. Пусть лифт двигается быстро и время на спуск мы не учитываем. Количество времени, за которое можно спуститься по лестнице (в минутах) есть случайная величина $ Y $, обладающее произвольным распределением со следующей функцией плотности: $ f(y) = \begin{cases}
+	\frac{2}{9}y, \text{ } \text{при} \text{ } y\in[0;3] \\
+	0, \text{ } \text{при} \text{ } x\notin[0;3]
+	\end{cases} $ (принцип построения: чем больше времени имеется на спуск по лестнице, тем с большей вероятностью можно добраться до нужного этажа).
+	
+	\begin{enumerate}
+		\item [(a)] Найти вероятность ожидания лифта более чем 2 минуты
+		\item [(b)] Найти вероятность спуститься до нужного этажа за 2 минуты
+		\item [(c)] На основе подсчетов в (а) и (b) сделать вывод
+	\end{enumerate}
+
+	\begin{center}
+		{\large Решение:}
+	\end{center}
+
+	\begin{enumerate}
+		\item [(a)] 
+		Из общего вида функции плотности равномерного распределения получаем, что
+		\[
+		f(x) = 	\begin{cases}
+		\frac{1}{5}, \text{ } \text{при} \text{ } x\in[0;5] \\ 
+		0, \text{ } \text{при} \text{ } x\notin[0;5]
+		\end{cases} 
+		\]
+		Тогда, $ \mathbb{P}(X\in[2;5]) =  \Large \displaystyle \int\limits_{2}^{5}\dfrac{1}{5}dx = \dfrac{1}{5}x\bigg|^{5}_{2}=\dfrac{3}{5}=0.6$
+		
+		\item [(b)] Покажу, что функция плотности построена хорошо и условие нормировки выполнено: 
+		
+		\[ 
+		\Large \displaystyle \int\limits_{0}^{3}\dfrac{2}{9}ydy = \dfrac{2y^2}{18}=\dfrac{y^2}{9}\bigg|_{0}^{3}=\dfrac{9}{9}=1
+		\]
+		
+		Аналогично п.(а), при заданной плотности: $ \mathbb{P}(Y\in[0;2]) = \Large \displaystyle \int\limits_{0}^{2}\dfrac{2y}{9}dy = \dfrac{y^2}{9}\bigg|_{0}^{2}=\dfrac{4}{9}=0.(4)$
+		
+		\item [(c)] Из п.(а) видим, что вероятность добраться до аудитории (с учетом времени спуска на лифте, которая очень маленькая) за 2 минуты равна $ 1 - 0.6 = 0.4 $ (40\%), а вероятность дойти до двери пешочком примерно 44\%. Так как с большей вероятностью студент успеет добежать до аудитории, спускаясь по лестнице, лучше лифт не ждать, а всеми силами спешить на лекцию по энтропии! 
+	\end{enumerate}
+\end{document}
